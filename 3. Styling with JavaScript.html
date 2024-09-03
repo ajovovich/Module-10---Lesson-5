@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Styling with JavaScript</title>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 20px;
+            cursor: pointer;
+        }
+        .hoverEffect {
+            transition: background-color 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="box" class="hoverEffect" onclick="changeColor()">Click me to change color</div>
+    <button onclick="toggleVisibility()">Toggle Box Visibility</button>
+    <div id="anotherBox" class="hoverEffect">Hover over me</div>
+    <p id="textElement">This is a text element.</p>
+    <span id="spanElement">This is a span element.</span>
+
+    <script src="3. Styling with JavaScript.js"></script>
+</body>
+</html>
